@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Curriculum Vitae</title>
+  <style>
+    /* General CSS styles for the CV */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .cv-header {
+      background-color: #b3d9ff;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cv-header h1, .cv-header p {
+      margin: 5px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .contact-info p {
+      margin: 5px;
+    }
+
+    .cv-content {
+      display: flex;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      overflow: hidden;
+    }
+
+    .cv-left-section, .cv-right-section {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .cv-left-section {
+      background-color: #e0f2ff;
+    }
+
+    .cv-right-section {
+      background-color: #fff;
+    }
+
+    .section-heading {
+      background-color: #b3d9ff;
+      padding: 8px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+    }
+
+    .section-content {
+      margin-bottom: 20px;
+    }
+
+    /* Customize specific sections */
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Add light blue colored icons for headings */
+    .section-heading::before {
+      content: "🔹";
+      margin-right: 5px;
+    }
+
+    /* Add light blue colored icons for contact information */
+ 
+
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="cv-header">
+      <h1>Your Name</h1>
+      <p>Web Developer</p>
+      <div class="contact-info">
+        <p> 📱  Phone: (123) 456-7890</p>
+        <p> 📧 Email: your.email@example.com</p>
+        <p> 📪 Address: City, Country</p>
+      </div>
+    </div>
+    <div class="cv-content">
+      <div class="cv-left-section">
+        <div class="section-heading">
+          <h2>🔹 Work Experience</h2>
+        </div>
+        <div class="section-content">
+          <p>
+            <strong>Company XYZ</strong> - Web Developer - 2018 to Present<br>
+            Developed and maintained company websites using HTML, CSS, and JavaScript.<br>
+            Collaborated with the team to implement new features and improve user experience.
+          </p>
+          <p>
+            <strong>Company ABC</strong> - Frontend Developer - 2015 to 2018<br>
+            Contributed to the development of various client projects.<br>
+            Worked with designers to ensure the best user experience and visual appeal.
+          </p>
+        </div>
+        <div class="section-heading">
+          <h2>🔹 Education</h2>
+        </div>
+        <div class="section-content">
+          <p>
+            <strong>University Name</strong> - Master's Degree in Computer Science - Graduation Year<br>
+            Thesis: "Advancements in Web Development"<br>
+            Relevant Courses: Web Programming, Data Structures, Algorithm Design
+          </p>
+          <p>
+            <strong>University Name</strong> - Bachelor's Degree in Computer Science - Graduation Year<br>
+            Minor in Mathematics<br>
+            Relevant Courses: Software Engineering, Database Systems, Operating Systems
+          </p>
+        </div>
+      
+      </div>
+
+      <div class="cv-right-section">
+        <div style="text-align: center;"><img class="profile-image" src="../transparent_face/F1.png" alt="Your Name"></div>
+
+        <div class="section-heading">
+          <h2>🔹 About Me</h2>
+        </div>
+        <div class="section-content">
+          <p>
+            I am an experienced web developer with a passion for creating beautiful and functional websites.
+            My expertise includes HTML, CSS, JavaScript, and responsive web design.
+          </p>
+        </div>
+        <div class="section-heading">
+          <h2>🔹 Language</h2>
+        </div>
+        <div class="section-content">
+          <ul>
+            <li>English (Fluent)</li>
+            <li>Spanish (Intermediate)</li>
+            <li>French (Basic)</li>
+          </ul>
+        </div>
+        <div class="section-heading">
+            <h2>🔹 Skills</h2>
+          </div>
+          <div class="section-content">
+            <ul>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Responsive Web Design</li>
+              <li>Version Control (Git)</li>
+              <li>Problem-solving and Analytical Skills</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Curriculum Vitae</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      display: flex;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-section {
+      flex: 1.2;
+      padding: 0px;
+      background-color: #ffd700; /* Darkest yellow color */
+      position: relative;
+      z-index: 1;
+    }
+
+    .right-section {
+      flex: 2;
+      padding: 20px;
+      background-color: #fff; /* White background for right portion */
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffd700; /* Yellow border around image */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 30px; /* Adjust this value to position the image correctly */
+      right: calc(0% - 75px); /* Adjust this value to center the image */
+      z-index: 2;
+    }
+
+    .contact-details {
+      text-align: left;
+      color: #333; /* Dark gray color for contact details */
+      margin-top: 210px; /* Adjust this value to create space below the image */
+    }
+
+    .education-list,.work-experience-list{
+      list-style: none;
+      padding-left: 0px;
+    }
+    .languages-list,.skills-list{
+      list-style: none;
+      padding-left: 20px;
+    }
+    h2 {
+      font-weight: bold;
+    }
+
+    .section-heading {
+      font-weight: bold;
+    }
+
+    /* Additional styles for icons (Font Awesome) */
+    .icon {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left-section">
+      <img class="profile-image" src="../transparent_face/F2.png" alt="Your Name">
+      <div class="contact-details">
+
+        <h2 class="section-heading" style="background-color: grey; padding: 5px;" ><i class="icon">📞</i>Contact</h2>
+       <div style="margin-left: 20px;">
+        <p><b>Email:</b> your.email@example.com</p>
+        <p><b>Phone:</b> (123) 456-7890</p>
+        <p><b>Address:</b> 132, My Street, Kingston, New York 12401 </p>
+      </div>
+        <h2 class="section-heading" style="background-color: grey; padding: 5px;"><i class="icon">🌐</i>Languages</h2>
+        <ul class="languages-list">
+          <li>English (Fluent)</li>
+          <li>Spanish (Intermediate)</li>
+          <li>French (Basic)</li>
+        </ul>
+        <h2 class="section-heading" style="background-color: grey; padding: 5px;"><i class="icon">💻</i>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Version Control (Git)</li>
+          <li>Problem-solving and Analytical Skills</li>
+          <li>React.js, Vue.js</li>
+          <li>Node.js, Express.js</li>
+          <li>RESTful APIs</li>
+          <li>Database Management</li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-section">
+      <div style="text-align:center;margin-top:10%">
+      <h2>John Doe</h2>
+      <h3>Web Developer</h3>
+</div>
+
+<div style="margin-top: 55px;padding-left: 5%;">
+      <h2 class="section-heading">About Me 👤</h2>
+      <p>
+        Write a brief summary of yourself and your career goals here.
+        Mention your key skills and experience relevant to the job you are seeking.
+      </p>
+
+      <h2 class="section-heading">Education  🧑🏻‍🎓 </h2>
+      <ul class="education-list">
+        <li>
+          <strong>University Name</strong> - Master's Degree in Computer Science - Graduation Year<br>
+          Thesis: "Advancements in Web Development"<br>
+          Relevant Courses: Web Programming, Data Structures, Algorithm Design
+        </li>
+        <li>
+          <strong>University Name</strong> - Bachelor's Degree in Computer Science - Graduation Year<br>
+          Minor in Mathematics<br>
+          Relevant Courses: Software Engineering, Database Systems, Operating Systems
+        </li>
+      </ul>
+
+      <h2 class="section-heading">Work Experience 🧑🏻‍💻</h2>
+      <ul class="work-experience-list">
+        <li>
+          <strong>Company XYZ</strong> - Web Developer - 2018 to Present<br>
+          Developed and maintained company websites using HTML, CSS, and JavaScript.<br>
+          Collaborated with the team to implement new features and improve user experience.
+        </li>
+        <li>
+          <strong>Company ABC</strong> - Frontend Developer - 2015 to 2018<br>
+          Contributed to the development of various client projects.<br>
+          Worked with designers to ensure the best user experience and visual appeal.
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

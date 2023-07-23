@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .cv-container {
+      max-width: 800px;
+      margin: 20px auto;
+      display: flex;
+      background-color: #6c757d; /* Grey background for the left section */
+      border-radius: 8px;
+    }
+    .left-section {
+      flex: 1;
+      padding: 20px;
+      color: #fff; /* Text color for the left section */
+    }
+    .right-section {
+      flex: 2;
+      padding: 20px;
+      background-color: #fff; /* White background for the right section */
+      border-radius: 8px;
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffc107; /* Yellow color for the image border */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+    }
+    .section-heading {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .section p {
+      margin: 0;
+    }
+    .skills-list, .work-experience-list, .education-list, .languages-list, .projects-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .skills-list li, .work-experience-list li, .education-list li, .languages-list li, .projects-list li {
+      margin-bottom: 10px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      background-color: #6c757d; /* Grey background for section headings in the left section */
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    .section.skills-section h2,
+    .section.education-section h2,
+    .section.work-experience-section h2 {
+      background-color: #ffc107; /* Yellow background for section headings in the right section */
+      color: #000; /* Text color for section headings in the right section */
+    }
+    .section-heading i {
+      margin-right: 10px;
+    }
+    .contact-item i, .about-section-heading i {
+      margin-right: 5px;
+    }
+    .about-section-heading ,.education-section-heading,.work-section-heading{
+      background-color: #ffc107; /* Yellow background for "About Me" section heading */
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    .name-designation {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #ffc107; /* Yellow color for name and designation */
+      background-color: #6c757d; /* Grey background for name and designation */
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    /* Stylish horizontal row separator */
+    .left-section .section-row {
+    border-bottom: 2px solid #ffc107;
+      margin: 10px 0; 
+    }
+
+
+    /* White icon color */
+    .section-heading i,
+    .contact-item i,
+    .about-section-heading i {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left-section">
+      <img class="profile-image" src="../transparent_face/M1.png" alt="Your Name">
+     
+      <h2 class="section-heading"><i class="fas fa-phone"></i> Contact</h2>
+      <div class="section-row"></div>
+      <p class="contact-item"><i class="fas fa-phone"></i> Phone: (123) 456-7890</p>
+      <p class="contact-item"><i class="fas fa-envelope"></i> Email: your.email@example.com</p>
+      <p class="contact-item"><i class="fas fa-address-card"></i> Address: your address here</p>
+      
+
+     
+      <h2 class="section-heading"><i class="fas fa-code"></i> Skills</h2>
+      <div class="section-row"></div>
+      <ul class="skills-list">
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Version Control (Git)</li>
+        <!-- ... (more skills) ... -->
+      </ul>
+
+     
+      <h2 class="section-heading"><i class="fas fa-globe"></i> Languages</h2>
+      <div class="section-row"></div>
+      <ul class="languages-list">
+        <li>English (Fluent)</li>
+        <li>Spanish (Intermediate)</li>
+        <li>French (Basic)</li>
+      </ul>
+    </div>
+    <div class="right-section">
+      <div class="name-designation">
+        Your Name
+        <br>
+        Web Developer
+      </div>
+<div>
+      <h2 class="about-section-heading"><i class="fas fa-user"></i> About Me</h2>
+      <p>
+        Write a brief summary of yourself and your career goals here.
+        Mention your key skills and experience relevant to the job you are seeking.
+      </p>
+
+      <div class="section-row"></div>
+      <h2 class="section-heading education-section-heading"><i class="fas fa-user-graduate"></i> Education</h2>
+      <ul class="education-list">
+        <li>
+          <strong>School Name</strong> - Master's Degree in Computer Science - Graduation Year<br>
+        </li>
+        <li>
+          <strong>University Name</strong> - Master's Degree in Computer Science - Graduation Year<br>
+        </li>
+        <!-- ... (more education items) ... -->
+      </ul>
+
+      <div class="section-row"></div>
+      <h2 class="section-heading work-section-heading"><i class="fas fa-briefcase"></i>  Work Experience</h2>
+      <ul class="work-experience-list">
+        <li>
+          <strong>Company XYZ</strong> - Web Developer - 2018 to Present<br>
+          Developed and maintained company websites using HTML, CSS, and JavaScript.<br>
+          Collaborated with the team to implement new features and improve user experience.
+        </li>
+        <li>
+          <strong>Company XYZ</strong> - Web Developer - 2018 to Present<br>
+          Developed and maintained company websites using HTML, CSS, and JavaScript.<br>
+          Collaborated with the team to implement new features and improve user experience.
+        </li>
+        <!-- ... (more work experience items) ... -->
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
